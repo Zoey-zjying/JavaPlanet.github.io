@@ -93,8 +93,14 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g #生成页面</span><br><span class="line">hexo d #b</span><br></pre></td></tr></table></figure>
-
+        <h3 id="发布文章的过程："><a href="#发布文章的过程：" class="headerlink" title="发布文章的过程："></a>发布文章的过程：</h3><ol>
+<li><p>进入博客所在目录，右键打开 Git Bash Here，创建博文：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></li>
+<li><p>然后 source 文件夹中会出现一个 My New Post.md 文件，就可以使用 Markdown 编辑器在该文件中撰写文章了。</p>
+</li>
+<li><p>写完后运行下面代码将文章渲染并部署到 GitHub Pages 上完成发布。<strong>以后每次发布文章都是这两条命令。</strong></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g #生成页面</span><br><span class="line">hexo d #部署生成</span><br></pre></td></tr></table></figure></li>
+</ol>
 
       
     </div>
